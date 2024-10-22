@@ -44,12 +44,29 @@
   ],
   "assets": [
     {
+      "name": "FLOW1",
+      "type": "data_intg_flow"
+    },
+    {
       "name": "ROWGEN_PEEK",
       "type": "data_intg_flow"
     },
     {
       "name": "4eb69cdf-1815-42e0-ab20-5cd5d4be0f9f-DataStage_settings",
       "type": "data_intg_project_settings"
+    },
+    {
+      "name": "default_datastage_px",
+      "type": "environment"
+    },
+    {
+      "name": "FLOW1.DataStage job",
+      "type": "job"
+    },
+    {
+      "name": "FLOW1",
+      "type": "px_executables",
+      "location": "FLOW1"
     },
     {
       "name": "ROWGEN_PEEK",
